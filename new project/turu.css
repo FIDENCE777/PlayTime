@@ -33,6 +33,7 @@ nav {
 
 header svg {
   display: none;
+  color: white;
 }
 
 .hero-container {
@@ -89,74 +90,327 @@ header svg {
   margin-left: -150px;
 }
 .icon {
-display: flex;
-flex-direction: column;
-max-width: 1950px;
-height: 800px;
-margin: 140px 140px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 .icon h2 {
-    text-align: center;
+  text-align: center;
 }
 .text {
-    padding: 40px 40px;
-align-self: center;
-width: 700px;
-text-align: center;
+  padding: 40px 40px;
+  align-self: center;
+  width: 70vw;
+  text-align: center;
 }
 .box-parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .box {
-    text-align: center;
-    width: 500px;
-    height: 300px;
+  text-align: center;
+  width: 500px;
 }
 .box h3 {
-    padding: 30px 0px;
+  padding: 30px 0px;
 }
 .stats {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-height: 400px;
-background-image: url(/pexels-wyxina-tresse-311038210-14700815.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url(/pexels-wyxina-tresse-311038210-14700815.jpg);
 }
 .title {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 836px;
-height: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
 }
 .title h4 {
-    padding-top: 80px;
-    font-size: 40px;
-    color: white;
+  display: block;
+  padding-top: 80px;
+  font-size: 40px;
+  color: white;
 }
 .title p {
-    padding: 10px 0px;
-    color: white;
+  padding: 10px 0px;
+  color: white;
 }
 .stats2 {
-display: flex;
-margin-top: 150px;
-margin-bottom: 50px;
-flex-direction: row;
-justify-content: space-between;
-width: 1088px;
-height: 62px;
-color: white;
-font-size: 20px;
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  color: white;
+  font-size: 20px;
 }
 .arrow {
-    margin-right: 25px;
+  margin-right: 25px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+width: 85%;
+  margin: 100px auto;
+}
+.info-into {
+  display: flex;
+  justify-content: space-between;
+  width: 85%  ;
+  gap: 40px;
+}
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.image {
+  width: 50%;
+min-height: 400px;
+  background-image: url(/cosmic-sphere-3840x2160-20444.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  border: 0px;
+}
+.information2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.image2 {
+  width: 50%;
+  height: 400px;
+ min-height: 300px;
+  background-image: url(/cyborg-green-grass-3840x2160-15996.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  border: 0px;
+}
+h5 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+h6 {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.information p {
+  max-width: 450px;
+  letter-spacing: 5px;
+}
+.information2 p {
+  display: flex;
+  width: 50%;
+  letter-spacing: 5px;
+}
+.diff {
+  display: flex;
+  margin-top: 40px;
+}
+.clouds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  width: 100%;
+  background-image: url(/pexels-wyxina-tresse-311038210-14700815.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo-title {
+  width: 60vw;
+}
+.logo-title h7 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: white;
+}
+.logo-title p {
+  color: white;
+  padding-top: 40px;
+}
+.logo-parent {
+  display: flex;
+ gap: 40px;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.first {
+  display: flex;
+  width: 30%;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  background-image: url(https://cdn.prod.website-files.com/6655e42ec93edb810c23bc5c/66955fb2355e7b6da648554a_632624c9b80942104edeb5fa_screen-shot-2022-06-30-at-2.36.05-pm.png);
+  background-position: center;
+  background-size: cover;
+}
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+}
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+}
+.logo-all {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  border-radius: 15px;
+}
+.logo-all.one {
+  margin-top: 50px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_fsz1tMjJlcW5di6AuysLCKowYDY_kyqJYsRLbUsENVwKMceHJBD1BDcn&s=10);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.two {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-image: url(https://c8.alamy.com/comp/2BMAR58/a-r-lettermark-logo-design-vector-2BMAR58.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.three {
+  margin-top: 50px;
+  background-image: url(https://www.logogenie.com/images/articles/10-famous-lettermark-logos-and-how-to-design-your-own-for-your-company/image6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.first four {
+  background-image: url(https://cdn.prod.website-files.com/6655e42ec93edb810c23bc5c/66955fb2355e7b6da648554a_632624c9b80942104edeb5fa_screen-shot-2022-06-30-at-2.36.05-pm.png);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.five {
+  background-image: url(https://www.logogenie.com/images/articles/10-famous-lettermark-logos-and-how-to-design-your-own-for-your-company/image10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.six {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVAL3XvV-xcc8DBxRpEEGGhmsDe7EbfoCa1y1CAQcWzgmbDyOK4_UbBPs&s=10);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.seven {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShwqm-j1b5TL7pLOrRaWXY0HE7yPM4NtC_ni_MVZeQ3k5AyOFSiKtlM4hJ&s=10);
+  background-position: center;
+  background-size: cover;
+}
+.logo-all.eight {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaKiauWUyK1tMloG1wdKobU-NB5xfEWaOJ13zpfhp_gQCfc-KGEQEsQd3x&s=1024);
+  background-position: center;
+  background-size: cover;
+}
+.first.nine {
+  background-image: url(https://logomaster.ai/assets/site/46/46fa7a66d6a042875e74f17d42df58f492c287264535154056ea2ca7cc9599e4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.spec-icon {
+  width: 240px;
+  height: 240px;
+  background-image: url(./supercoil-svgrepo-com.svg);
+  background-position: center;
+  background-size: cover;
+}
+.contact h8 {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.contact button {
+  height: 60px;
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 30px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(14, 36, 3, 0.545);
+  padding: 90px 50px;
+  gap: 40px;
+}
+.loading {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+}
+.science {
+display: flex;
+flex-direction: column;
+gap: 26px;
+}
+.bold {
+font-family: Inter;
+font-weight: 700;
+font-size: 30px;
+line-height: 18px;
+color:  #FFFFFF;
+}
+.us {
+font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+color: #E6E6E6;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 18px;
+  gap: 24px;
+}
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons {
+  width: 32px;
+  height: 32px;
 }
 @media (max-width: 600px) {
   nav svg {
@@ -178,15 +432,78 @@ font-size: 20px;
   }
 
   .hero-container {
+    height: 1000px;
     padding: 39px 20px;
     text-align: center;
   }
-
+.hero-container input {
+  width: 345px;
+  font-size: small;
+}
   .hero {
     width: 100%;
   }
 
   .hero h2 {
     font-size: 42px;
+  }
+  .box-parent {
+ }
+  .stats {
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  .stats h4 {
+    text-align: center;
+  }
+  .stats2 {
+    flex-wrap: wrap;
+    padding: 100px;
+  }
+  .stats2 div {
+    margin-top: 70px;
+  }
+  .arrow {
+    margin-top: 70px;
+  }
+  .info {
+    display: fl
+  }
+  .info-into {
+   align-items: center;
+    flex-direction: column;
+  }
+  .img3 {
+    flex-direction: column-reverse;
+  }
+  .logo-parent {
+    flex-direction: column;
+    height: auto;
+  }
+  .clouds {
+    height: auto;
+    padding-top: 20px;
+  }
+  .second {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .contact {
+    text-align: center;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    flex-direction: column;
+  }
+  .loading {
+    flex-direction: column;
+  }
+  .copyright {
+    flex-direction: column-reverse;
+  }
+  .contact-link {
+    justify-content: flex-start;
   }
 }
